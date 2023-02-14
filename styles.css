@@ -8,7 +8,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     color: antiquewhite;
-    background-color: rgb(20, 18, 33);
+    background-color: rgb(46, 42, 78);
 }
 h1{
     color: black;
@@ -32,13 +32,21 @@ header{
     top: 150px;
     right: 0px;
 }
+.tit-home{
+    display: block;
+    width: 100%;
+    align-content: center;
+    padding: 1rem;
+    background-color: black;
+}
 
 .menu{
     display: block;
-    margin-top: 100px;
+    margin-top: 100px;    
 }
 
 ul{
+    forced-color-adjust: auto;
     list-style: none;
 }
 
