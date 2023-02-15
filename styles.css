@@ -55,9 +55,20 @@ main{
     margin-top: 100px;
 }
 
-table{
-
+th{
+    padding: 1.5rem;
+    background-color: azure;
+    color:black;
+    border: sandybrown, solid;
 }
+
+td{
+    padding: 1.5rem;
+    background-color: aqua;
+    color: black;
+    border: rgb(192, 217, 154), solid;
+}
+
 
 
 
