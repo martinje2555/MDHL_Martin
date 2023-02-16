@@ -3,6 +3,7 @@
     border: 0;
     margin: 0;
     background: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -49,17 +50,15 @@ header{
 }
 
 ul{
-
     forced-color-adjust: auto;
-
     list-style: none;
     padding: 4px;
     background-color: gray;    
 }
 
 .info{
-    display: inline;
-    margin-top: 5;
+    display: block
+    margin-top: 2;
     margin-left: 50;
 }
 
