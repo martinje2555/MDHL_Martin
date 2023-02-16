@@ -29,36 +29,32 @@ header{
 .logo{
     display: inline-block;
     position: absolute;
-    top: 150px;
+    top: 50px;
     right: 0px;
 }
-.tit-home{
-    display: block;
+.tit-page{
+    display: inline-block;
     width: 100%;
     text-align: center;
     padding: 1rem;
     background-color: black;
 }
 
-.container{
-    height: 80vh;
-    width: 80vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    justify-content: space-around;
-    align-items: flex-start;
-    
-}
-
 .menu{
-    display: inline;
-    margin-top: 0;    
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-around;        
+    width: 100%;
+    margin-top: 0;       
 }
 
 ul{
+
     forced-color-adjust: auto;
+
     list-style: none;
+    padding: 4px;
+    background-color: gray;    
 }
 
 .info{
