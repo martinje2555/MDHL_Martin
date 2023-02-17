@@ -58,17 +58,17 @@ ul{
 
 .info{
     display: flex;
+    flex-direction: row;
     align-content: center;
-    justify-content: space-between;
+    justify-content: space-around;
     
     
 }
 
-table{
-    
+table{    
     width: 100px;
-    height: 100%;
-    margin-top: 50px;
+    height: 200px;
+    margin-top: 70px;
     padding: 2px;
     background-color: azure;
     color:black;
@@ -76,38 +76,50 @@ table{
 }
 
 td{
+    display: flex;
+    flex-direction: column;
+
     padding: 2px;
     background-color: aqua;
     color: black;
-    border: rgb(192 217 154) solid;
+    border: rgb(12, 16, 7) solid;
 }
-.maps{
-    
+.maps{    
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    align-content: space-between;
+    align-content: space-around;
 
 }
 .registration{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
     background-color: antiquewhite;
     color: black;
+    margin-top: 70px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 
-form{
-    height: 100%;
-    width: 50%;
+form{    
     display: flex;
     flex-direction: column;
     align-content: center;
+    align-content: space-around;
+    border: 2px solid black;    
+}
+
+form fieldset{
+    padding: 2rem;
     border: 2px solid black;
-    padding: 2rem;
 }
-label{
-    padding: 2rem;
-    border: 1px solid black;
+label, h4{
+    margin: 6px 6px;
 }
+
 
 
 
