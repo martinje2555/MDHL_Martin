@@ -53,15 +53,15 @@ ul{
     forced-color-adjust: auto;
     list-style: none;
     padding: 4px;
-    background-color: gray;    
+    background-color: gray;
+    font-weight: bold;    
 }
 
 .info{
     display: flex;
     flex-direction: row;
     align-content: center;
-    justify-content: space-around;
-    
+    justify-content: space-around;  
     
 }
 
@@ -119,13 +119,19 @@ form fieldset{
 label, h4{
     margin: 6px 6px;
 }
-
-
-
-
-
-
-
+.rules{    
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-content: space-around;
+    margin: 100px 200px;
+}
+article{
+    margin-bottom: 10px;
+}
+p{
+    margin-bottom: 10px;
+}
 
 
 
